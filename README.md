@@ -1,5 +1,4 @@
-# **Using Knowledge Graphs for Event-specific Document Ranking
-through Multi-stage Query Expansion**
+# **Using Knowledge Graphs for Event-specific Document Ranking through Multi-stage Query Expansion**
 
 
 ## **Dataset: Ms-Marco-Event**
