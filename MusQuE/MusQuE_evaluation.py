@@ -466,7 +466,7 @@ def multi_stage_ranking(all_queries, bert_results,terms_df, MusQuE_scores_df):
 
 def main(all_queries, terms_df):
     MusQuE_scores_df=pd.DataFrame()
-    bert_results=pd.read_csv("/MosQuE/Data/doc_ranker_zero_scores", sep="\t", index=False)
+    bert_results=pd.read_csv("/MosQuE/Data/sample_doc_ranker_zero_scores.tsv", sep="\t") ### DocRanker_0 scores
     MusQuE_results=multi_stage_ranking(all_queries, bert_results, terms_df, MusQuE_scores_df)
 if __name__=="__main__":
     main(all_queries, terms_df)
