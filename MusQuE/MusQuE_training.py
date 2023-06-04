@@ -528,7 +528,7 @@ def main(all_queries, terms_df):
     optimizer=torch.optim.Adam(t.parameters(),lr=t.LR)
     
     bert_scores_df=pd.DataFrame()
-    bert_results=pd.read_pickle("/MosQuE/Data/doc_ranker_zero_scores")
+    bert_results=pd.read_csv("/MosQuE/Data/sample_doc_ranker_zero_scores.tsv", sep="\t") ### DocRanker_0 scores
     loss, new_bert_results, loss_cnt=train_iteration(all_queries, bert_results, terms_df, t.bert_model, t.linear, t.bertcat_linear, t.model, optimizer, bert_scores_df, 0)
     print("loss of this epoc is: ", loss/loss_cnt)
     for epoch in range(1,t.max_epoch):
