@@ -3,7 +3,7 @@
 
 ## **Dataset: Ms-Marco-Event**
  
-Ms-Marco-Event dataset is created based on the MSMARCO dataset and the EventKG event knowledge graph. This dataset contains event-related queries and related documents.
+Ms-Marco-Event dataset is created based on the MS-MARCO dataset and the EventKG event knowledge graph. This dataset contains event-related queries from Ms-Marco dataset.
 
 ## **MusQuE**
 
