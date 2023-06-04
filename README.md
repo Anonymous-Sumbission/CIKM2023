@@ -5,7 +5,7 @@ Welcome to the GitHub repository for the paper titled 'Using Knowledge Graphs fo
 
 ## **Dataset: Ms-Marco-Event**
  
-Ms-Marco-Event dataset is created based on the MS-MARCO dataset and the EventKG event knowledge graph. This dataset contains event-related queries from Ms-Marco dataset.
+Ms-Marco-Event dataset is created based on the MS-MARCO dataset and the EventKG event knowledge graph. This dataset contains event-related queries from Ms-Marco dataset. Please refer to the main [MS-MARCO dataset] (https://microsoft.github.io/msmarco/Datasets.html) for more detailed information and specific dataset guidelines.
 
 ## **MusQuE**
 
